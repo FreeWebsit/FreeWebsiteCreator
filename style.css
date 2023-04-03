@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+    width: 10%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 34px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(229, 3, 3);
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li a:hover{
+    color: white;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7)url('view-saone-river-morning-light-lyon.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    height: 75%;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.firstHalf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf{
+    width: 30%;
+}
+
+.secondHalf img{
+    padding: 24px 0;
+    border-radius: 50px;
+    width: 10%;
+}
+
+.text-big{
+    font-size: 30px;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.box-main img{
+    width: 15%;
+    border-radius: 50px;
+    padding: 24px 0;
+}
+
+.secRight{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.contact{
+    height: 34vh;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.form{
+    max-width: 344px;
+    margin: auto;
+}
+
+.form input{
+    width: 100%;
+}
+
+.btn-dark{
+    color: black;
+}
